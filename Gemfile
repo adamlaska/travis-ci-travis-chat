@@ -1,10 +1,10 @@
 source :rubygems
 gem 'travis-sso', github: 'travis-ci/travis-sso'
 gem 'sinatra',    github: 'sinatra/sinatra'
-gem 'rack-ssl'
+gem 'rack-ssl', '>= 1.3.3'
 gem 'coffee-script'
 gem 'slim'
-gem 'thin'
+gem 'thin', '>= 1.5.1'
 gem 'sass'
 gem 'rinku'
 gem 'rake'
